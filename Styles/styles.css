@@ -1,4 +1,53 @@
-h1, h2, h3 {
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #96B6C5;
+    text-align: center;
+    cursor: grab;
+}
+
+div {
+    background-color: #ADC4CE;
+    padding: 20px 30px;
+    border: 2px solid black;
+    margin: 20px 40px;
+}
+
+h3 { 
+    color: #F1F0E8;
+
+}
+
+a:hover {
+    color:aquamarine;
+    font-size: 1.5em;
+    border: 2px dotted black;
+}
+
+a:visited {
+    color: black
+}
+
+.main-container {
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+    overflow-x: hideen;
+}
+
+
+.links {
+    color:#F1F0E8;
+    text-decoration: none;
+}
+
+#u-list {
+    list-style-type: none;
+
+}
+
+.imagen:hover {
+    border-radius: 20px;
 }
